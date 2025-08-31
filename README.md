@@ -1,12 +1,43 @@
-# React + Vite
+#  Tours Project (React.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React.js project** to display tour packages with details.  
+Users can read more/less about a tour, remove tours they are not interested in, and refresh the list when all tours are removed.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- Display a list of tours with **image, price, name, and description**.  
+- **Read More / Show Less** toggle for descriptions.  
+- **Remove Tour** functionality with "Not Interested" button.  
+- **Refresh button** when all tours are removed.  
+- Component-based architecture (`App`, `Tours`, `Card`).  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+📦 Tours-Project
+┣ 📂 src
+┃ ┣ 📂 component
+┃ ┃ ┣ 📜 Card.jsx
+┃ ┃ ┗ 📜 Tours.jsx
+┃ ┣ 📜 App.jsx
+┃ ┣ 📜 data.js
+┃ ┗ 📜 index.js
+┣ 📜 package.json
+┣ 📜 README.md
+┗ 📜 .gitignore
+
+## Tech Stack
+1)React.js 
+2)JavaScript (ES6+)
+3)CSS for styling
+
+##SCREENSHOTS
+<img width="1920" height="1080" alt="Screenshot (1223)" src="https://github.com/user-attachments/assets/82052ba1-da17-4f05-acc2-fc61791dd44c" />
+<img width="1920" height="1080" alt="Screenshot (1224)" src="https://github.com/user-attachments/assets/eeba5fe7-c46f-478a-9bc6-896e4d156981" />
+
+
+
+
+
+
